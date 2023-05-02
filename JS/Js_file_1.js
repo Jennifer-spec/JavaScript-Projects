@@ -31,4 +31,3 @@ function Hello_World_Function() {
     var A = document.getElementsByClassName("Click");
     A[1].innerHTML = "The text has changed!";
 }
-
