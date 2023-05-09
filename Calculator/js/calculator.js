@@ -48,7 +48,7 @@ function Handle_Operator(Next_Operator) {
     Calculator.operator = Next_Operator;
 }
 
-cons Perform_Calculation = {
+const Perform_Calculation = {
     '/': (First_Operand,Second_Operand) => First_Operand / Second_Operand,
     '*': (First_Operand,Second_Operand) => First_Operand * Second_Operand,
     '+': (First_Operand,Second_Operand) => First_Operand + Second_Operand,
